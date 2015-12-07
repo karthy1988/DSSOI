@@ -1,8 +1,5 @@
 ---
 title: 'Optimized Delivery Route using Genetic Algorithm: Cost cutting for e-commerce'
-author: "Karthik"
-date: "30 November 2015"
-output: html_document
 ---
 
 Travelling Salesman Problem (TSP) is a well known and extensively studied [NP-hard](https://en.wikipedia.org/wiki/NP-hardness) combinatorial optimization problem. Even though its a NP-hard problem, there are many heuristic algorithms available which works well with few thousand cities. And a wide variety of research has been conducted to explore TSP's application in planning, logistics and manufacturing of microchips.
