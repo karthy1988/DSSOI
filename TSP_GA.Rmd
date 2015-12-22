@@ -71,11 +71,13 @@ So far, we have seen how building an efficient logistics solution in e-commerce 
 
 First, lets load the the library 'GA' and a sample data called "eurodist", which gives distances between various cities in Europe ( if you don't have this library, simply run install.packages("GA"))
 
-    ```{r, results=FALSE, message=FALSE,warning=FALSE}
-    library(GA)
-    data("eurodist", package = "datasets")
-    D <- as.matrix(eurodist)
-    ```
+```{r, results=FALSE, message=FALSE,warning=FALSE}
+render_markdown(strict = TRUE)
+library(GA)
+data("eurodist", package = "datasets")
+D <- as.matrix(eurodist)
+```
+
 
 Now, since our objective is to find the shortest path for our delivery boy, the fitness function should maximize the reciprocal of the tour length, which will in turn minimize the tour length. So, below two function are defined for the purpose.
 
